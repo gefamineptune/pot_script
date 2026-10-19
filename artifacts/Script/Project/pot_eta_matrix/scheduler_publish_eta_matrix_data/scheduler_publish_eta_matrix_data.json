@@ -1,0 +1,47 @@
+{
+	"id": "4d08c5f4-9097-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-14T03:33:47.310Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f7465552-528a-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_general",
+			"contextname": "pot_eta_lead_time_general"
+		},
+		{
+			"id": "36caf9ce-f096-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_not_active",
+			"contextname": "pot_eta_lead_time_not_active"
+		},
+		{
+			"id": "00539f37-7d90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_po_sto",
+			"contextname": "pot_eta_lead_time_po_sto"
+		},
+		{
+			"id": "28f70150-9a90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_pr",
+			"contextname": "pot_eta_lead_time_pr"
+		},
+		{
+			"id": "a6dead71-1f8b-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_tp",
+			"contextname": "pot_eta_lead_time_tp"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "scheduler_publish_eta_matrix_data",
+	"ver": "26.09.16.1750",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

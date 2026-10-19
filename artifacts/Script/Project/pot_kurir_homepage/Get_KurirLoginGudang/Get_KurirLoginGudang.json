@@ -1,0 +1,52 @@
+{
+	"id": "c81f69c9-f5c1-f111-b88f-0050568c835b",
+	"createdAt": "2026-10-07T02:21:22.600Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_https",
+			"name": "https",
+			"contextname": "https",
+			"path": "https",
+			"subPath": ""
+		},
+		{
+			"id": "1D467C44-3CAB-F111-B88F-0050568C835B",
+			"name": "jsonwebtoken",
+			"contextname": "jsonwebtoken",
+			"path": "C:/Neptune/node_modules/jsonwebtoken",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "c82783ff-7189-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi",
+			"contextname": "pot_ekspedisi"
+		},
+		{
+			"id": "b8b668bd-e9a4-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi_gudang",
+			"contextname": "pot_ekspedisi_gudang"
+		},
+		{
+			"id": "93a89ea8-8985-f111-b88d-0050568c835b",
+			"name": "pot_master_gudang",
+			"contextname": "pot_master_gudang"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Get_KurirLoginGudang",
+	"ver": "26.10.07.1002",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "119f8716-0eac-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

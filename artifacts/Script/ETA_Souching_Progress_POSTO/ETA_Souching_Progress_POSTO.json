@@ -1,0 +1,37 @@
+{
+	"id": "6276bc9a-5295-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-11T07:02:25.140Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f7465552-528a-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_general",
+			"contextname": "pot_eta_lead_time_general"
+		},
+		{
+			"id": "00539f37-7d90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_po_sto",
+			"contextname": "pot_eta_lead_time_po_sto"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "ETA_Souching_Progress_POSTO",
+	"ver": "26.08.28.1122",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "606cd24b-3995-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "606cd24b-3995-f111-b88f-0050568c835b",
+		"name": "Sourcing_calculation",
+		"ver": "26.10.19.1416"
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"id": "6a6152ed-59b6-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-20T01:55:33.433Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_moment",
+			"name": "moment",
+			"contextname": "moment",
+			"path": "moment",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "081633db-dd8b-f111-b88f-0050568c835b",
+			"name": "pot_customer",
+			"contextname": "pot_customer"
+		},
+		{
+			"id": "7efd1463-318a-f111-b88f-0050568c835b",
+			"name": "pot_customer_group",
+			"contextname": "pot_customer_group"
+		},
+		{
+			"id": "00541785-5c8a-f111-b88f-0050568c835b",
+			"name": "pot_group_type",
+			"contextname": "pot_group_type"
+		},
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "64216aab-7ba6-f111-b88f-0050568c835b",
+			"name": "pot_po",
+			"contextname": "pot_po"
+		},
+		{
+			"id": "6974ecc3-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_internal_process",
+			"contextname": "pot_po_internal_process"
+		},
+		{
+			"id": "fb927194-a0a6-f111-b88f-0050568c835b",
+			"name": "pot_po_internal_process_history",
+			"contextname": "pot_po_internal_process_history"
+		},
+		{
+			"id": "b868d469-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_item",
+			"contextname": "pot_po_item"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Test_Get_PODetail",
+	"ver": "26.09.22.1451",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9163bb2b-3a9c-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

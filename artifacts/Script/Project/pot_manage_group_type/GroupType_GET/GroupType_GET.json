@@ -1,0 +1,39 @@
+{
+	"id": "20382f89-dc8e-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-03T01:42:08.113Z",
+	"createdBy": "s3.rizky",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_moment",
+			"name": "moment",
+			"contextname": "moment",
+			"path": "moment"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "7efd1463-318a-f111-b88f-0050568c835b",
+			"name": "pot_customer_group",
+			"contextname": "pot_customer_group"
+		},
+		{
+			"id": "00541785-5c8a-f111-b88f-0050568c835b",
+			"name": "pot_group_type",
+			"contextname": "pot_group_type"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "GroupType_GET",
+	"ver": "26.08.19.1237",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "7122ba81-dc8e-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

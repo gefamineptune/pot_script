@@ -1,0 +1,32 @@
+{
+	"id": "9cd6f8c0-cd8b-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-30T04:18:45.800Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "a6dead71-1f8b-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_tp",
+			"contextname": "pot_eta_lead_time_tp"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Save_data_ETA_TP",
+	"ver": "26.08.02.2236",
+	"description": "logic for create,update and delete data eta lead time TP when upload excel",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+		"name": "pot_eta_matrix",
+		"ver": "26.10.19.1417"
+	}
+}

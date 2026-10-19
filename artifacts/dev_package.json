@@ -1,0 +1,738 @@
+{
+	"id": "202fd658-8ccb-f111-b890-0050568c835b",
+	"createdAt": "2026-10-19T07:11:48.146Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/gefamineptune/pot_script.git",
+		"branch": "main"
+	},
+	"name": "potscript",
+	"description": null,
+	"ver": "26.10.19.1412",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "ff89ed06-dc8e-f111-b88f-0050568c835b",
+			"name": "CustomerGroup_GET",
+			"description": null
+		},
+		{
+			"id": "fea2841b-dc8e-f111-b88f-0050568c835b",
+			"name": "CustomerGroup_DELETE",
+			"description": ""
+		},
+		{
+			"id": "fb7ba906-6e90-f111-b88f-0050568c835b",
+			"name": "POT_Verify",
+			"description": null
+		},
+		{
+			"id": "f94d24be-30ae-f111-b88f-0050568c835b",
+			"name": "Get_DeliveryOrder_Detail",
+			"description": null
+		},
+		{
+			"id": "f9161278-a8b5-f111-b88f-0050568c835b",
+			"name": "Save_SelesaiPengiriman_BACKUP",
+			"description": ""
+		},
+		{
+			"id": "ef7b4501-7889-f111-b88f-0050568c835b",
+			"name": "ManageRole_CreateOrUpdateRole",
+			"description": null
+		},
+		{
+			"id": "e72fd4dd-ec8b-f111-b88f-0050568c835b",
+			"name": "GetCustomers",
+			"description": ""
+		},
+		{
+			"id": "e6e6d421-dfac-f111-b88f-0050568c835b",
+			"name": "Get_RiwayatPengirimanKurirDetail",
+			"description": null
+		},
+		{
+			"id": "e28e80d8-888c-f111-b88f-0050568c835b",
+			"name": "CreateOrUpdate_CustomerAccount",
+			"description": ""
+		},
+		{
+			"id": "e0bda298-a795-f111-b88f-0050568c835b",
+			"name": "ETA_Sourcing_Progress_PR",
+			"description": null
+		},
+		{
+			"id": "df880d55-9d90-f111-b88f-0050568c835b",
+			"name": "save_data_ETA_PR",
+			"description": null
+		},
+		{
+			"id": "de4a230f-5db0-f111-b88f-0050568c835b",
+			"name": "backup",
+			"description": null
+		},
+		{
+			"id": "d7eb5392-1ca1-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_Export",
+			"description": ""
+		},
+		{
+			"id": "d472df23-198b-f111-b88f-0050568c835b",
+			"name": "Delete_Courier",
+			"description": null
+		},
+		{
+			"id": "d3166a69-daad-f111-b88f-0050568c835b",
+			"name": "Update_SPBKurirSelesaiPengiriman",
+			"description": null
+		},
+		{
+			"id": "d2fbaadd-3995-f111-b88f-0050568c835b",
+			"name": "ETA_Sourching_Progress_TP",
+			"description": null
+		},
+		{
+			"id": "d1e52d73-829b-f111-b88f-0050568c835b",
+			"name": "GET_delivery_tracking_status",
+			"description": null
+		},
+		{
+			"id": "d11b78a6-03b0-f111-b88f-0050568c835b",
+			"name": "Save_ProsesPengiriman_BACKUP",
+			"description": null
+		},
+		{
+			"id": "d080374e-e2bb-f111-b88f-0050568c835b",
+			"name": "cleanUp_expired_token",
+			"description": "script untuk delete data untuk scheduler"
+		},
+		{
+			"id": "ce48e10d-34ab-f111-b88f-0050568c835b",
+			"name": "reset_token_validation",
+			"description": null
+		},
+		{
+			"id": "c81f69c9-f5c1-f111-b88f-0050568c835b",
+			"name": "Get_KurirLoginGudang",
+			"description": null
+		},
+		{
+			"id": "be1c19c5-1a93-f111-b88f-0050568c835b",
+			"name": "grouping_PoType_VendorName",
+			"description": null
+		},
+		{
+			"id": "b9e0ef9e-a7ad-f111-b88f-0050568c835b",
+			"name": "GET_Delivery_Process_BACKUP",
+			"description": null
+		},
+		{
+			"id": "b8576f12-dd8e-f111-b88f-0050568c835b",
+			"name": "Customer_GET",
+			"description": null
+		},
+		{
+			"id": "b812747c-3ba7-f111-b88f-0050568c835b",
+			"name": "backup_get_internal_traking_status",
+			"description": null
+		},
+		{
+			"id": "b7f45100-cbac-f111-b88f-0050568c835b",
+			"name": "Generate_token",
+			"description": null
+		},
+		{
+			"id": "b7b954d0-99a6-f111-b88f-0050568c835b",
+			"name": "test_get_data",
+			"description": null
+		},
+		{
+			"id": "b3e55f36-688a-f111-b88f-0050568c835b",
+			"name": "Decrypt",
+			"description": null
+		},
+		{
+			"id": "b3d5363a-3a9c-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_GET",
+			"description": null
+		},
+		{
+			"id": "b25c0e1e-0db3-f111-b88f-0050568c835b",
+			"name": "Get_QRContent",
+			"description": null
+		},
+		{
+			"id": "b1d9023c-86b2-f111-b88f-0050568c835b",
+			"name": "test_get_po_id",
+			"description": null
+		},
+		{
+			"id": "b17b153c-6e90-f111-b88f-0050568c835b",
+			"name": "POT_Sync_Role_UCA",
+			"description": ""
+		},
+		{
+			"id": "abaf562d-688a-f111-b88f-0050568c835b",
+			"name": "Encrypt",
+			"description": null
+		},
+		{
+			"id": "aa886253-3887-f111-b88d-0050568c835b",
+			"name": "Create",
+			"description": null
+		},
+		{
+			"id": "aa452501-56b6-f111-b88f-0050568c835b",
+			"name": "Backup_PurchaseOrderDetail_Get",
+			"description": ""
+		},
+		{
+			"id": "a961b31b-dec6-f111-b88f-0050568c835b",
+			"name": "test",
+			"description": null
+		},
+		{
+			"id": "a56c0223-c3ac-f111-b88f-0050568c835b",
+			"name": "GET_Branch",
+			"description": null
+		},
+		{
+			"id": "a28cabb1-26b1-f111-b88f-0050568c835b",
+			"name": "chart Outstanding PO",
+			"description": null
+		},
+		{
+			"id": "a1fd79c3-c6bc-f111-b88f-0050568c835b",
+			"name": "RK_Test_Script",
+			"description": null
+		},
+		{
+			"id": "9e36c6b3-dc8e-f111-b88f-0050568c835b",
+			"name": "GroupType_DELETE",
+			"description": ""
+		},
+		{
+			"id": "9d6e14bd-abad-f111-b88f-0050568c835b",
+			"name": "Save_SelesaiPengiriman",
+			"description": ""
+		},
+		{
+			"id": "9cd6f8c0-cd8b-f111-b88f-0050568c835b",
+			"name": "Save_data_ETA_TP",
+			"description": "logic for create,update and delete data eta lead time TP when upload excel"
+		},
+		{
+			"id": "93897bd8-a9ad-f111-b88f-0050568c835b",
+			"name": "Save_SelesaiPengiriman_Img",
+			"description": null
+		},
+		{
+			"id": "921ada94-7e9b-f111-b88f-0050568c835b",
+			"name": "publish_now_ETA_tp",
+			"description": null
+		},
+		{
+			"id": "91f6e1db-0c80-f111-b88d-0050568c835b",
+			"name": "introspect",
+			"description": null
+		},
+		{
+			"id": "8e5f3bb4-3287-f111-b88d-0050568c835b",
+			"name": "Delete_MasterGudang_By_Id",
+			"description": null
+		},
+		{
+			"id": "8cfbeb67-7789-f111-b88f-0050568c835b",
+			"name": "GET_COURIER_By_Id",
+			"description": null
+		},
+		{
+			"id": "884b1a1b-eba4-f111-b88f-0050568c835b",
+			"name": "Get_Ekspedisi_By_Id",
+			"description": null
+		},
+		{
+			"id": "842548c3-1ab0-f111-b88f-0050568c835b",
+			"name": "Validation_DeliveryOrder",
+			"description": "script untuk cek apakah data DO masih tersedia di SAP atau tidak"
+		},
+		{
+			"id": "7aad1399-31ab-f111-b88f-0050568c835b",
+			"name": "reset_password",
+			"description": null
+		},
+		{
+			"id": "79fcd3fc-9c90-f111-b88f-0050568c835b",
+			"name": "get_data_ETA_PR",
+			"description": null
+		},
+		{
+			"id": "7884c6aa-56b3-f111-b88f-0050568c835b",
+			"name": "PurchaseOrderDetail_Get",
+			"description": ""
+		},
+		{
+			"id": "77af69be-8489-f111-b88f-0050568c835b",
+			"name": "ManageRole_GetAccessMenuByRoleId",
+			"description": null
+		},
+		{
+			"id": "7516eebb-c8b1-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_DELETE_1",
+			"description": ""
+		},
+		{
+			"id": "735ce3ed-318a-f111-b88f-0050568c835b",
+			"name": "Delete_Ekspedisi_By_Id",
+			"description": null
+		},
+		{
+			"id": "731e1a57-bdac-f111-b88f-0050568c835b",
+			"name": "Get_RiwayatPengirimanKurir",
+			"description": ""
+		},
+		{
+			"id": "6b187283-3c96-f111-b88f-0050568c835b",
+			"name": "ETA_Billing",
+			"description": null
+		},
+		{
+			"id": "6a6152ed-59b6-f111-b88f-0050568c835b",
+			"name": "Test_Get_PODetail",
+			"description": ""
+		},
+		{
+			"id": "69db345e-8e85-f111-b88d-0050568c835b",
+			"name": "Get_MasterGudang",
+			"description": null
+		},
+		{
+			"id": "69127c98-3180-f111-b88d-0050568c835b",
+			"name": "logout_courier_keycloak",
+			"description": null
+		},
+		{
+			"id": "6767bdf1-c88b-f111-b88f-0050568c835b",
+			"name": "Get_CustomerAccount",
+			"description": null
+		},
+		{
+			"id": "6745fca8-80a6-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_DELETE",
+			"description": null
+		},
+		{
+			"id": "66826cd8-ad90-f111-b88f-0050568c835b",
+			"name": "Customer_Sync",
+			"description": ""
+		},
+		{
+			"id": "65867667-68b2-f111-b88f-0050568c835b",
+			"name": "Test",
+			"description": null
+		},
+		{
+			"id": "6276bc9a-5295-f111-b88f-0050568c835b",
+			"name": "ETA_Souching_Progress_POSTO",
+			"description": null
+		},
+		{
+			"id": "5f414c09-abb0-f111-b88f-0050568c835b",
+			"name": "login_courier_keycloak",
+			"description": ""
+		},
+		{
+			"id": "5eb53cd5-687f-f111-b88d-0050568c835b",
+			"name": "login_courier_keycloak_BACKUP",
+			"description": null
+		},
+		{
+			"id": "5d8a2dba-84aa-f111-b88f-0050568c835b",
+			"name": "send_email_forget_password",
+			"description": null
+		},
+		{
+			"id": "578fe092-b3bc-f111-b88f-0050568c835b",
+			"name": "Tracking_Status_COPY",
+			"description": ""
+		},
+		{
+			"id": "5712fcd8-97b8-f111-b88f-0050568c835b",
+			"name": "Test_SelesaiPengiriman",
+			"description": ""
+		},
+		{
+			"id": "56ac5a37-feb6-f111-b88f-0050568c835b",
+			"name": "pot_internal_process",
+			"description": null
+		},
+		{
+			"id": "56170a68-649c-f111-b88f-0050568c835b",
+			"name": "GET_internal_tracking_status",
+			"description": ""
+		},
+		{
+			"id": "5540f8ba-1090-f111-b88f-0050568c835b",
+			"name": "save_data_ETA_General",
+			"description": null
+		},
+		{
+			"id": "53906eea-ca96-f111-b88f-0050568c835b",
+			"name": "ETA_Eskalasi",
+			"description": "Perhitungan ETA jika pada bagian MIGO 107 kosong atau cancelation"
+		},
+		{
+			"id": "51537e84-76a6-f111-b88f-0050568c835b",
+			"name": "GET_delivery_tracking_status_OLD",
+			"description": null
+		},
+		{
+			"id": "508038ca-529c-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_GET_PICCustomer",
+			"description": null
+		},
+		{
+			"id": "4ec53ebf-f780-f111-b88d-0050568c835b",
+			"name": "register",
+			"description": null
+		},
+		{
+			"id": "4d08c5f4-9097-f111-b88f-0050568c835b",
+			"name": "scheduler_publish_eta_matrix_data",
+			"description": null
+		},
+		{
+			"id": "4c7b2a88-f48b-f111-b88f-0050568c835b",
+			"name": "Delete_Customer",
+			"description": ""
+		},
+		{
+			"id": "4c316111-3287-f111-b88d-0050568c835b",
+			"name": "Get_MasterGudang_By_Name",
+			"description": null
+		},
+		{
+			"id": "4c3096a5-dc8e-f111-b88f-0050568c835b",
+			"name": "GroupType_POST",
+			"description": ""
+		},
+		{
+			"id": "47669385-aa90-f111-b88f-0050568c835b",
+			"name": "GET_CustomerMaster",
+			"description": ""
+		},
+		{
+			"id": "46064efb-59b5-f111-b88f-0050568c835b",
+			"name": "GET_Branch_DWH",
+			"description": ""
+		},
+		{
+			"id": "45eaf922-558f-f111-b88f-0050568c835b",
+			"name": "get_data_ETA_TP",
+			"description": null
+		},
+		{
+			"id": "45d20627-689f-f111-b88f-0050568c835b",
+			"name": "Ekspedisi_Sync",
+			"description": null
+		},
+		{
+			"id": "459058a9-9097-f111-b88f-0050568c835b",
+			"name": "get_data_ETA_po_sto_inactive",
+			"description": null
+		},
+		{
+			"id": "43ad9b6a-84b2-f111-b88f-0050568c835b",
+			"name": "Save_ProsesPengiriman",
+			"description": ""
+		},
+		{
+			"id": "3dd05c1c-d097-f111-b88f-0050568c835b",
+			"name": "publish_now_ETA_general",
+			"description": ""
+		},
+		{
+			"id": "3d66cb1c-e88f-f111-b88f-0050568c835b",
+			"name": "GET_Employee",
+			"description": null
+		},
+		{
+			"id": "3ced3d08-9db6-f111-b88f-0050568c835b",
+			"name": "Backup_Get_RiwayatPengirimanKurirData",
+			"description": ""
+		},
+		{
+			"id": "3884881f-6e90-f111-b88f-0050568c835b",
+			"name": "POT_Authenticate",
+			"description": ""
+		},
+		{
+			"id": "36ef192b-0fac-f111-b88f-0050568c835b",
+			"name": "Get_DeliveryOrder_List",
+			"description": null
+		},
+		{
+			"id": "30c84e50-ebaf-f111-b88f-0050568c835b",
+			"name": "GET_Delivery_Process",
+			"description": ""
+		},
+		{
+			"id": "2e35ead9-96b1-f111-b88f-0050568c835b",
+			"name": "validation_SelesaiPengiriman",
+			"description": null
+		},
+		{
+			"id": "2d18afef-3180-f111-b88d-0050568c835b",
+			"name": "reset_password_courier",
+			"description": null
+		},
+		{
+			"id": "2bd938ea-19a5-f111-b88f-0050568c835b",
+			"name": "CreateOrUpdateEkspedisi",
+			"description": null
+		},
+		{
+			"id": "25c27ca5-f38b-f111-b88f-0050568c835b",
+			"name": "Delete_CustomerAccount",
+			"description": null
+		},
+		{
+			"id": "20382f89-dc8e-f111-b88f-0050568c835b",
+			"name": "GroupType_GET",
+			"description": null
+		},
+		{
+			"id": "1c4db7cd-b9b0-f111-b88f-0050568c835b",
+			"name": "publish_now_ETA_pr_Enhance",
+			"description": null
+		},
+		{
+			"id": "19c4c702-3b9c-f111-b88f-0050568c835b",
+			"name": "PurchaseOrder_Sync",
+			"description": ""
+		},
+		{
+			"id": "18a2362d-dd8e-f111-b88f-0050568c835b",
+			"name": "Customer_POST",
+			"description": ""
+		},
+		{
+			"id": "17973d2f-ac90-f111-b88f-0050568c835b",
+			"name": "GET_VendorMaster",
+			"description": ""
+		},
+		{
+			"id": "1348f878-7e89-f111-b88f-0050568c835b",
+			"name": "GetCouriers",
+			"description": null
+		},
+		{
+			"id": "10ae4645-b8b0-f111-b88f-0050568c835b",
+			"name": "get_data_ETA_PR_Enhance",
+			"description": null
+		},
+		{
+			"id": "0a2977cf-9097-f111-b88f-0050568c835b",
+			"name": "publish_now_ETA_po_sto",
+			"description": null
+		},
+		{
+			"id": "09b77b6b-7489-f111-b88f-0050568c835b",
+			"name": "Get_Ekspedisi",
+			"description": null
+		},
+		{
+			"id": "08ca59b4-fcc1-f111-b88f-0050568c835b",
+			"name": "Get_DeliveryOrder_List_Backup",
+			"description": ""
+		},
+		{
+			"id": "08bc804b-fdb0-f111-b88f-0050568c835b",
+			"name": "Aging Open PO",
+			"description": null
+		},
+		{
+			"id": "06c236dd-f48f-f111-b88f-0050568c835b",
+			"name": "get_data_ETA_general",
+			"description": null
+		},
+		{
+			"id": "05b60b5d-458a-f111-b88f-0050568c835b",
+			"name": "CreateOrUpdate_CourierAccount",
+			"description": null
+		},
+		{
+			"id": "059b280e-f6ab-f111-b88f-0050568c835b",
+			"name": "Customer_Sync_OLD",
+			"description": ""
+		},
+		{
+			"id": "04e8a960-7f9b-f111-b88f-0050568c835b",
+			"name": "publish_now_ETA_pr",
+			"description": null
+		},
+		{
+			"id": "0212048c-e08e-f111-b88f-0050568c835b",
+			"name": "CustomerGroup_POST",
+			"description": ""
+		},
+		{
+			"id": "012bb080-31b6-f111-b88f-0050568c835b",
+			"name": "test_data",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "fe9eacff-6d90-f111-b88f-0050568c835b",
+			"name": "POT_UCA_Integration",
+			"description": ""
+		},
+		{
+			"id": "fd9ceba5-84aa-f111-b88f-0050568c835b",
+			"name": "pot_kurir_login",
+			"description": ""
+		},
+		{
+			"id": "e401c027-feb6-f111-b88f-0050568c835b",
+			"name": "pot_po_internal_process",
+			"description": ""
+		},
+		{
+			"id": "dc819e07-e88f-f111-b88f-0050568c835b",
+			"name": "POT_Integration",
+			"description": ""
+		},
+		{
+			"id": "d38451e9-db8e-f111-b88f-0050568c835b",
+			"name": "pot_manage_customer_group",
+			"description": ""
+		},
+		{
+			"id": "b9b13520-688a-f111-b88f-0050568c835b",
+			"name": "encryption_script",
+			"description": ""
+		},
+		{
+			"id": "b6576f12-dd8e-f111-b88f-0050568c835b",
+			"name": "pot_manage_customer",
+			"description": ""
+		},
+		{
+			"id": "b20aad51-7489-f111-b88f-0050568c835b",
+			"name": "POT_Manage_Ekspedisi",
+			"description": ""
+		},
+		{
+			"id": "9adc0429-8e85-f111-b88d-0050568c835b",
+			"name": "POT_MasterData",
+			"description": ""
+		},
+		{
+			"id": "9163bb2b-3a9c-f111-b88f-0050568c835b",
+			"name": "pot_purchase_order",
+			"description": ""
+		},
+		{
+			"id": "7122ba81-dc8e-f111-b88f-0050568c835b",
+			"name": "pot_manage_group_type",
+			"description": ""
+		},
+		{
+			"id": "67bd4b41-fdb0-f111-b88f-0050568c835b",
+			"name": "pot_landing_page_dashboard",
+			"description": ""
+		},
+		{
+			"id": "606cd24b-3995-f111-b88f-0050568c835b",
+			"name": "Sourcing_calculation",
+			"description": ""
+		},
+		{
+			"id": "5f166b72-3c96-f111-b88f-0050568c835b",
+			"name": "pot_eta_billing_calculation",
+			"description": ""
+		},
+		{
+			"id": "5b9be4d9-7789-f111-b88f-0050568c835b",
+			"name": "pot_managerole",
+			"description": ""
+		},
+		{
+			"id": "574a1423-6d9b-f111-b88f-0050568c835b",
+			"name": "pot_po_delivery_process",
+			"description": ""
+		},
+		{
+			"id": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+			"name": "pot_eta_matrix",
+			"description": "logic for eta matrix"
+		},
+		{
+			"id": "4cc60ef9-caac-f111-b88f-0050568c835b",
+			"name": "generate_token_jwt",
+			"description": ""
+		},
+		{
+			"id": "11fa8dd5-c88b-f111-b88f-0050568c835b",
+			"name": "POT_Manage_Customer_Account",
+			"description": ""
+		},
+		{
+			"id": "119f8716-0eac-f111-b88f-0050568c835b",
+			"name": "pot_kurir_homepage",
+			"description": ""
+		},
+		{
+			"id": "0ef4c2ae-687f-f111-b88d-0050568c835b",
+			"name": "pot_keycloak",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"theme_generator": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"i18n": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": [],
+	"ui5_control": [],
+	"ai_agent": [],
+	"ai_model": [],
+	"ai_prompt": [],
+	"ai_tool": [],
+	"ai_guardrail": [],
+	"path_rewrite": [],
+	"vault": []
+}

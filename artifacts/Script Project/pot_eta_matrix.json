@@ -1,0 +1,10 @@
+{
+	"id": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-30T04:16:51.893Z",
+	"createdBy": "s3.aldo",
+	"name": "pot_eta_matrix",
+	"description": "logic for eta matrix",
+	"ver": "26.10.19.1417",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"projectLogLevel": null
+}

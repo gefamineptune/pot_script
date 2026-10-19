@@ -1,0 +1,47 @@
+{
+	"id": "578fe092-b3bc-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-19T04:00:01.593Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "8f22ea80-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman",
+			"contextname": "pot_kurir_selesai_pengiriman"
+		},
+		{
+			"id": "a46506ff-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman_img",
+			"contextname": "pot_kurir_selesai_pengiriman_img"
+		},
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "a57bbd2a-36a7-f111-b88f-0050568c835b",
+			"name": "pot_po_delivery_process",
+			"contextname": "pot_po_delivery_process"
+		},
+		{
+			"id": "fb927194-a0a6-f111-b88f-0050568c835b",
+			"name": "pot_po_history_status",
+			"contextname": "pot_po_history_status"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Tracking_Status_COPY",
+	"ver": "26.10.05.1522",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "574a1423-6d9b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

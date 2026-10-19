@@ -1,0 +1,37 @@
+{
+	"id": "77af69be-8489-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-27T06:31:05.896Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "74b45b7e-d084-f111-b88d-0050568c835b",
+			"name": "pot_role",
+			"contextname": "pot_role"
+		},
+		{
+			"id": "26374501-7e86-f111-b88d-0050568c835b",
+			"name": "pot_role_access_menu",
+			"contextname": "pot_role_access_menu"
+		},
+		{
+			"id": "830bd2a4-d084-f111-b88d-0050568c835b",
+			"name": "pot_page",
+			"contextname": "pot_page"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "ManageRole_GetAccessMenuByRoleId",
+	"ver": "26.08.06.1456",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "5b9be4d9-7789-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

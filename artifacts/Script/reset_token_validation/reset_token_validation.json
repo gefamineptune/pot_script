@@ -1,0 +1,32 @@
+{
+	"id": "ce48e10d-34ab-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-08T03:19:09.783Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "4042c1f0-7caa-f111-b88f-0050568c835b",
+			"name": "pot_password_reset_token",
+			"contextname": "pot_password_reset_token"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "reset_token_validation",
+	"ver": "26.09.28.0930",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "fd9ceba5-84aa-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "fd9ceba5-84aa-f111-b88f-0050568c835b",
+		"name": "pot_kurir_login",
+		"ver": "26.10.19.1419"
+	}
+}

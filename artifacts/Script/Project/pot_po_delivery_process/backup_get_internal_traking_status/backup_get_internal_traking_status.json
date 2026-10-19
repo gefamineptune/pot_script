@@ -1,0 +1,42 @@
+{
+	"id": "b812747c-3ba7-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-03T02:02:16.836Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "8a4341b8-829b-f111-b88f-0050568c835b",
+			"name": "test_po_delivery_tracking_status",
+			"contextname": "test_po_delivery_tracking_status"
+		},
+		{
+			"id": "e5a9dfcf-df9a-f111-b88f-0050568c835b",
+			"name": "test_po_item",
+			"contextname": "test_po_item"
+		},
+		{
+			"id": "fd3ca116-e09a-f111-b88f-0050568c835b",
+			"name": "test_po_internal_process",
+			"contextname": "test_po_internal_process"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "backup_get_internal_traking_status",
+	"ver": "26.09.03.0906",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "574a1423-6d9b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

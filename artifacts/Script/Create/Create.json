@@ -1,0 +1,32 @@
+{
+	"id": "aa886253-3887-f111-b88d-0050568c835b",
+	"createdAt": "2026-07-24T08:19:02.246Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "93a89ea8-8985-f111-b88d-0050568c835b",
+			"name": "pot_master_gudang",
+			"contextname": "pot_master_gudang"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Create",
+	"ver": "26.07.24.1522",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9adc0429-8e85-f111-b88d-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "9adc0429-8e85-f111-b88d-0050568c835b",
+		"name": "POT_MasterData",
+		"ver": "26.10.19.1421"
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"id": "56ac5a37-feb6-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-23T03:24:00.230Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "6974ecc3-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_internal_process",
+			"contextname": "pot_po_internal_process"
+		},
+		{
+			"id": "b868d469-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_item",
+			"contextname": "pot_po_item"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "pot_internal_process",
+	"ver": "26.10.01.2330",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e401c027-feb6-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "e401c027-feb6-f111-b88f-0050568c835b",
+		"name": "pot_po_internal_process",
+		"ver": "26.10.19.1416"
+	}
+}

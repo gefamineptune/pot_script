@@ -1,0 +1,36 @@
+{
+	"id": "d3166a69-daad-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-11T12:15:01.876Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_https",
+			"name": "https",
+			"contextname": "https",
+			"path": "https",
+			"subPath": ""
+		},
+		{
+			"id": "1D467C44-3CAB-F111-B88F-0050568C835B",
+			"name": "jsonwebtoken",
+			"contextname": "jsonwebtoken",
+			"path": "C:/Neptune/node_modules/jsonwebtoken",
+			"subPath": ""
+		}
+	],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "Update_SPBKurirSelesaiPengiriman",
+	"ver": "26.09.14.1439",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "119f8716-0eac-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

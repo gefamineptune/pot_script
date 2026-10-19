@@ -1,0 +1,32 @@
+{
+	"id": "53906eea-ca96-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-13T03:56:09.656Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f7de0845-d396-f111-b88f-0050568c835b",
+			"name": "historical_sourcing_pr",
+			"contextname": "historical_sourcing_pr"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "ETA_Eskalasi",
+	"ver": "26.08.13.1546",
+	"description": "Perhitungan ETA jika pada bagian MIGO 107 kosong atau cancelation",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "606cd24b-3995-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "606cd24b-3995-f111-b88f-0050568c835b",
+		"name": "Sourcing_calculation",
+		"ver": "26.10.19.1416"
+	}
+}

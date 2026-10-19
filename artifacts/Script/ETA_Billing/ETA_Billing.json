@@ -1,0 +1,39 @@
+{
+	"id": "6b187283-3c96-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-12T10:56:48.306Z",
+	"createdBy": "s3.rizky",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_moment",
+			"name": "moment",
+			"contextname": "moment",
+			"path": "moment"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "f7465552-528a-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_general",
+			"contextname": "pot_eta_lead_time_general"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "ETA_Billing",
+	"ver": "26.08.14.1403",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "5f166b72-3c96-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "5f166b72-3c96-f111-b88f-0050568c835b",
+		"name": "pot_eta_billing_calculation",
+		"ver": "26.10.19.1417"
+	}
+}

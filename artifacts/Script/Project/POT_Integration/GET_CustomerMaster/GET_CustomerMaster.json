@@ -1,0 +1,28 @@
+{
+	"id": "47669385-aa90-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-04T09:37:31.366Z",
+	"createdBy": "s3.rizky",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "2EDF9652-A07D-F011-B882-0050568C835B",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "C:/Neptune/node_modules/sequelize"
+		}
+	],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "GET_CustomerMaster",
+	"ver": "26.09.10.1002",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "dc819e07-e88f-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

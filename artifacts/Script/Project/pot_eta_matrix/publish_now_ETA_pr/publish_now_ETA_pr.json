@@ -1,0 +1,32 @@
+{
+	"id": "04e8a960-7f9b-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-19T03:38:02.033Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "28f70150-9a90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_pr",
+			"contextname": "pot_eta_lead_time_pr"
+		},
+		{
+			"id": "36caf9ce-f096-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_not_active",
+			"contextname": "pot_eta_lead_time_not_active"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "publish_now_ETA_pr",
+	"ver": "26.09.16.1751",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

@@ -1,0 +1,26 @@
+{
+	"id": "b3e55f36-688a-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-28T09:39:22.893Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "Decrypt",
+	"ver": "26.08.14.1336",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "b9b13520-688a-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "b9b13520-688a-f111-b88f-0050568c835b",
+		"name": "encryption_script",
+		"ver": "26.10.19.1420"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "45d20627-689f-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-24T03:01:51.563Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "2EDF9652-A07D-F011-B882-0050568C835B",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "C:/Neptune/node_modules/sequelize",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "c82783ff-7189-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi",
+			"contextname": "pot_ekspedisi"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Ekspedisi_Sync",
+	"ver": "26.08.27.1012",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "b20aad51-7489-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

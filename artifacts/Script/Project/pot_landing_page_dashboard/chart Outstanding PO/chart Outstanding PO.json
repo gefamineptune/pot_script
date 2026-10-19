@@ -1,0 +1,37 @@
+{
+	"id": "a28cabb1-26b1-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-15T16:58:38.310Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "081633db-dd8b-f111-b88f-0050568c835b",
+			"name": "pot_customer",
+			"contextname": "pot_customer"
+		},
+		{
+			"id": "7efd1463-318a-f111-b88f-0050568c835b",
+			"name": "pot_customer_group",
+			"contextname": "pot_customer_group"
+		},
+		{
+			"id": "64216aab-7ba6-f111-b88f-0050568c835b",
+			"name": "pot_po",
+			"contextname": "pot_po"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "chart Outstanding PO",
+	"ver": "26.10.05.1131",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "67bd4b41-fdb0-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

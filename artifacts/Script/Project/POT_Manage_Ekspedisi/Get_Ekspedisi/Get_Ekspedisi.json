@@ -1,0 +1,37 @@
+{
+	"id": "09b77b6b-7489-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-27T04:34:14.816Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "c82783ff-7189-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi",
+			"contextname": "pot_ekspedisi"
+		},
+		{
+			"id": "93a89ea8-8985-f111-b88d-0050568c835b",
+			"name": "pot_master_gudang",
+			"contextname": "pot_master_gudang"
+		},
+		{
+			"id": "b8b668bd-e9a4-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi_gudang",
+			"contextname": "pot_ekspedisi_gudang"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Get_Ekspedisi",
+	"ver": "26.10.15.1133",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "b20aad51-7489-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

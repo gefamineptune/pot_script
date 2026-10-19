@@ -1,0 +1,40 @@
+{
+	"id": "30c84e50-ebaf-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-11T06:11:27.296Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "2EDF9652-A07D-F011-B882-0050568C835B",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "C:/Neptune/node_modules/sequelize",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "a57bbd2a-36a7-f111-b88f-0050568c835b",
+			"name": "pot_po_delivery_process",
+			"contextname": "pot_po_delivery_process"
+		},
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "GET_Delivery_Process",
+	"ver": "26.09.30.1459",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "574a1423-6d9b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

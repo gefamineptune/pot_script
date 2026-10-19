@@ -1,0 +1,32 @@
+{
+	"id": "df880d55-9d90-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-05T07:14:44.693Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "28f70150-9a90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_pr",
+			"contextname": "pot_eta_lead_time_pr"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "save_data_ETA_PR",
+	"ver": "26.08.05.1545",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+		"name": "pot_eta_matrix",
+		"ver": "26.10.19.1417"
+	}
+}

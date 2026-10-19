@@ -1,0 +1,42 @@
+{
+	"id": "56170a68-649c-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-19T04:00:01.593Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "fb927194-a0a6-f111-b88f-0050568c835b",
+			"name": "pot_po_history_status",
+			"contextname": "pot_po_history_status"
+		},
+		{
+			"id": "6974ecc3-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_internal_process",
+			"contextname": "pot_po_internal_process"
+		},
+		{
+			"id": "b868d469-7ca6-f111-b88f-0050568c835b",
+			"name": "pot_po_item",
+			"contextname": "pot_po_item"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "GET_internal_tracking_status",
+	"ver": "26.09.16.1255",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "574a1423-6d9b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

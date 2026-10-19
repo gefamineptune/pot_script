@@ -1,0 +1,32 @@
+{
+	"id": "459058a9-9097-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-14T03:31:40.783Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "36caf9ce-f096-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_not_active",
+			"contextname": "pot_eta_lead_time_not_active"
+		},
+		{
+			"id": "00539f37-7d90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_po_sto",
+			"contextname": "pot_eta_lead_time_po_sto"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "get_data_ETA_po_sto_inactive",
+	"ver": "26.08.14.1409",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

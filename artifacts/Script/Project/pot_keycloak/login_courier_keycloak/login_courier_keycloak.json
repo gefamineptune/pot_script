@@ -1,0 +1,27 @@
+{
+	"id": "5f414c09-abb0-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-14T09:46:06.650Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "08cac57b-afb0-f111-b88f-0050568c835b",
+			"name": "pot_login_attempt",
+			"contextname": "pot_login_attempt"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "login_courier_keycloak",
+	"ver": "26.10.15.1110",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0ef4c2ae-687f-f111-b88d-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

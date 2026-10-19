@@ -1,0 +1,52 @@
+{
+	"id": "a1fd79c3-c6bc-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-30T12:02:19.433Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "eaf52bc3-b7bc-f111-b88f-0050568c835b",
+			"name": "pot_audit_trail_selesai_pengiriman",
+			"contextname": "pot_audit_trail_selesai_pengiriman"
+		},
+		{
+			"id": "c82783ff-7189-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi",
+			"contextname": "pot_ekspedisi"
+		},
+		{
+			"id": "8f22ea80-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman",
+			"contextname": "pot_kurir_selesai_pengiriman"
+		},
+		{
+			"id": "93a89ea8-8985-f111-b88d-0050568c835b",
+			"name": "pot_master_gudang",
+			"contextname": "pot_master_gudang"
+		},
+		{
+			"id": "a57bbd2a-36a7-f111-b88f-0050568c835b",
+			"name": "pot_po_delivery_process",
+			"contextname": "pot_po_delivery_process"
+		},
+		{
+			"id": "b8b668bd-e9a4-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi_gudang",
+			"contextname": "pot_ekspedisi_gudang"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "RK_Test_Script",
+	"ver": "26.10.07.0945",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "119f8716-0eac-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

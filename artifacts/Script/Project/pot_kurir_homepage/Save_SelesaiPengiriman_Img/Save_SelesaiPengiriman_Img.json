@@ -1,0 +1,42 @@
+{
+	"id": "93897bd8-a9ad-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-11T06:27:22.856Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_https",
+			"name": "https",
+			"contextname": "https",
+			"path": "https",
+			"subPath": ""
+		},
+		{
+			"id": "1D467C44-3CAB-F111-B88F-0050568C835B",
+			"name": "jsonwebtoken",
+			"contextname": "jsonwebtoken",
+			"path": "C:/Neptune/node_modules/jsonwebtoken",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "a46506ff-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman_img",
+			"contextname": "pot_kurir_selesai_pengiriman_img"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Save_SelesaiPengiriman_Img",
+	"ver": "26.10.02.0958",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "119f8716-0eac-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

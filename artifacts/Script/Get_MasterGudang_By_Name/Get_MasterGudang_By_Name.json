@@ -1,0 +1,26 @@
+{
+	"id": "4c316111-3287-f111-b88d-0050568c835b",
+	"createdAt": "2026-07-24T07:34:19.963Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "Get_MasterGudang_By_Name",
+	"ver": "26.07.24.1434",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9adc0429-8e85-f111-b88d-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "9adc0429-8e85-f111-b88d-0050568c835b",
+		"name": "POT_MasterData",
+		"ver": "26.10.19.1421"
+	}
+}

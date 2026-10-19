@@ -1,0 +1,52 @@
+{
+	"id": "d1e52d73-829b-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-19T04:00:01.593Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "a46506ff-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman_img",
+			"contextname": "pot_kurir_selesai_pengiriman_img"
+		},
+		{
+			"id": "35715f2c-c79a-f111-b88f-0050568c835b",
+			"name": "pot_master_order_status",
+			"contextname": "pot_master_order_status"
+		},
+		{
+			"id": "a57bbd2a-36a7-f111-b88f-0050568c835b",
+			"name": "pot_po_delivery_process",
+			"contextname": "pot_po_delivery_process"
+		},
+		{
+			"id": "fb927194-a0a6-f111-b88f-0050568c835b",
+			"name": "pot_po_history_status",
+			"contextname": "pot_po_history_status"
+		},
+		{
+			"id": "8f22ea80-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman",
+			"contextname": "pot_kurir_selesai_pengiriman"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "GET_delivery_tracking_status",
+	"ver": "26.10.05.1524",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "574a1423-6d9b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "574a1423-6d9b-f111-b88f-0050568c835b",
+		"name": "pot_po_delivery_process",
+		"ver": "26.10.19.1419"
+	}
+}

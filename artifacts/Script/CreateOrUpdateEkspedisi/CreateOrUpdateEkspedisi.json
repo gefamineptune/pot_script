@@ -1,0 +1,37 @@
+{
+	"id": "2bd938ea-19a5-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-31T08:56:55.790Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "c82783ff-7189-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi",
+			"contextname": "pot_ekspedisi"
+		},
+		{
+			"id": "b8b668bd-e9a4-f111-b88f-0050568c835b",
+			"name": "pot_ekspedisi_gudang",
+			"contextname": "pot_ekspedisi_gudang"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "CreateOrUpdateEkspedisi",
+	"ver": "26.08.31.1647",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "b20aad51-7489-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "b20aad51-7489-f111-b88f-0050568c835b",
+		"name": "POT_Manage_Ekspedisi",
+		"ver": "26.10.19.1420"
+	}
+}

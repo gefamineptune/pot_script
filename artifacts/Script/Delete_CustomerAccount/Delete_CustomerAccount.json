@@ -1,0 +1,32 @@
+{
+	"id": "25c27ca5-f38b-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-30T08:50:00.523Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "21ebbc90-c28b-f111-b88f-0050568c835b",
+			"name": "pot_customer_account",
+			"contextname": "pot_customer_account"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Delete_CustomerAccount",
+	"ver": "26.07.31.1056",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "11fa8dd5-c88b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "11fa8dd5-c88b-f111-b88f-0050568c835b",
+		"name": "POT_Manage_Customer_Account",
+		"ver": "26.10.19.1420"
+	}
+}

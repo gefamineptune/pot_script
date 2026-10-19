@@ -1,0 +1,27 @@
+{
+	"id": "be1c19c5-1a93-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-08T11:17:42.086Z",
+	"createdBy": "s3.aldo",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "28f70150-9a90-f111-b88f-0050568c835b",
+			"name": "pot_eta_lead_time_pr",
+			"contextname": "pot_eta_lead_time_pr"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "grouping_PoType_VendorName",
+	"ver": "26.08.09.0144",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "53a61f7d-cd8b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

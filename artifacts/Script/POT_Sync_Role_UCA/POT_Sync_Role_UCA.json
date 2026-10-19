@@ -1,0 +1,39 @@
+{
+	"id": "b17b153c-6e90-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-05T01:36:06.783Z",
+	"createdBy": "s3.rizky",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_axios",
+			"name": "axios",
+			"contextname": "axios",
+			"path": "axios"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "74b45b7e-d084-f111-b88d-0050568c835b",
+			"name": "pot_role",
+			"contextname": "pot_role"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "POT_Sync_Role_UCA",
+	"ver": "26.08.21.0954",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "fe9eacff-6d90-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "fe9eacff-6d90-f111-b88f-0050568c835b",
+		"name": "POT_UCA_Integration",
+		"ver": "26.10.19.1417"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "508038ca-529c-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-20T04:51:22.950Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "2EDF9652-A07D-F011-B882-0050568C835B",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "C:/Neptune/node_modules/sequelize",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "fe714daf-6e90-f111-b88f-0050568c835b",
+			"name": "pot_customer_sales_mapping",
+			"contextname": "pot_customer_sales_mapping"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "PurchaseOrder_GET_PICCustomer",
+	"ver": "26.09.02.1120",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9163bb2b-3a9c-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

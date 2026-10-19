@@ -1,0 +1,26 @@
+{
+	"id": "91f6e1db-0c80-f111-b88d-0050568c835b",
+	"createdAt": "2026-07-15T05:20:15.246Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "introspect",
+	"ver": "26.10.15.1109",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0ef4c2ae-687f-f111-b88d-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b",
+	"jsscriptGroupObj": {
+		"id": "0ef4c2ae-687f-f111-b88d-0050568c835b",
+		"name": "pot_keycloak",
+		"ver": "26.10.19.1416"
+	}
+}

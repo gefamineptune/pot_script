@@ -1,0 +1,47 @@
+{
+	"id": "f94d24be-30ae-f111-b88f-0050568c835b",
+	"createdAt": "2026-09-11T22:33:00.706Z",
+	"createdBy": "s3.rendy",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "1D467C44-3CAB-F111-B88F-0050568C835B",
+			"name": "jsonwebtoken",
+			"contextname": "jsonwebtoken",
+			"path": "C:/Neptune/node_modules/jsonwebtoken",
+			"subPath": ""
+		},
+		{
+			"id": "internal_https",
+			"name": "https",
+			"contextname": "https",
+			"path": "https",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "a1fd6241-29ac-f111-b88f-0050568c835b",
+			"name": "pot_kurir_delivery_temp",
+			"contextname": "pot_kurir_delivery_temp"
+		},
+		{
+			"id": "8f22ea80-5fab-f111-b88f-0050568c835b",
+			"name": "pot_kurir_selesai_pengiriman",
+			"contextname": "pot_kurir_selesai_pengiriman"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Get_DeliveryOrder_Detail",
+	"ver": "26.10.02.1455",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "119f8716-0eac-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

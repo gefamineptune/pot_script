@@ -1,0 +1,21 @@
+{
+	"id": "1348f878-7e89-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-27T05:46:12.400Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "GetCouriers",
+	"ver": "26.10.15.1109",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0ef4c2ae-687f-f111-b88d-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

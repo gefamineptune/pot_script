@@ -1,0 +1,35 @@
+{
+	"id": "fb7ba906-6e90-f111-b88f-0050568c835b",
+	"createdAt": "2026-08-05T01:36:06.783Z",
+	"createdBy": "s3.rizky",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_axios",
+			"name": "axios",
+			"contextname": "axios",
+			"path": "axios"
+		},
+		{
+			"id": "2EDF9652-A07D-F011-B882-0050568C835B",
+			"name": "sequelize",
+			"contextname": "sequelize",
+			"path": "C:/Neptune/node_modules/sequelize",
+			"subPath": ""
+		}
+	],
+	"entitySets": [],
+	"agents": [],
+	"apis": [],
+	"name": "POT_Verify",
+	"ver": "26.09.29.1856",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "fe9eacff-6d90-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}

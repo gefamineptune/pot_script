@@ -1,0 +1,32 @@
+{
+	"id": "6767bdf1-c88b-f111-b88f-0050568c835b",
+	"createdAt": "2026-07-30T03:44:20.083Z",
+	"createdBy": "s3.vinny",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "21ebbc90-c28b-f111-b88f-0050568c835b",
+			"name": "pot_customer_account",
+			"contextname": "pot_customer_account"
+		},
+		{
+			"id": "7efd1463-318a-f111-b88f-0050568c835b",
+			"name": "pot_customer_group",
+			"contextname": "pot_customer_group"
+		}
+	],
+	"agents": [],
+	"apis": [],
+	"name": "Get_CustomerAccount",
+	"ver": "26.09.28.1626",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "11fa8dd5-c88b-f111-b88f-0050568c835b",
+	"package": "202fd658-8ccb-f111-b890-0050568c835b"
+}
