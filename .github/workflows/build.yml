@@ -1,27 +1,53 @@
-name: Build
+
+name: POT SonarQube Analysis
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
+permissions:
+  contents: read
 
 jobs:
   build:
     name: Build and analyze
-    runs-on: ubuntu-latest
-    
+
+    # Windows Server 2019 self-hosted runner
+    runs-on: [self-hosted, Windows, X64]
+    timeout-minutes: 30
+
     steps:
-      - uses: actions/checkout@v4
+      # Checkout repository source code
+      - name: Checkout POT Source
+        uses: actions/checkout@v6
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
-      - uses: SonarSource/sonarqube-scan-action@v5
+          fetch-depth: 0
+          persist-credentials: false
+
+      # Validate internal SonarQube connectivity
+      - name: Verify SonarQube Connection
+        shell: powershell
+        env:
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        run: |
+          if (-not $env:SONAR_HOST_URL) {
+            throw "SONAR_HOST_URL is not configured"
+          }
+
+          $url = "$($env:SONAR_HOST_URL.TrimEnd('/'))/api/system/status"
+
+          $response = Invoke-RestMethod `
+            -Uri $url `
+            -TimeoutSec 30
+
+          Write-Host "SonarQube status: $($response.status)"
+
+          if ($response.status -ne "UP") {
+            throw "SonarQube is not operational"
+          }
+
+      # Execute SonarQube static code analysis
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v7.1.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-      # If you wish to fail your job when the Quality Gate is red, uncomment the
-      # following lines. This would typically be used to fail a deployment.
-      # - uses: SonarSource/sonarqube-quality-gate-action@v1
-      #   timeout-minutes: 5
-      #   env:
-      #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
